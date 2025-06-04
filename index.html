@@ -44,36 +44,39 @@
   <main>
     <section>
       <h2><section>
-  <h2>🎨 Arte y Creatividad</h2>
-  <ul>
-    <li><a href="#francofonia">Francofonía</a></li>
-  </ul>
+  <h2>🎨<section>
+  <h2 onclick="mostrarFrancofonia()" style="cursor: pointer; color: blue; text-decoration: underline;">
+    🎨 Arte y Creatividad (clic para ver)
+  </h2>
+  <div id="contenido-francofonia" style="display: none; margin-top: 10px;">
+    <h3>Francofonía</h3>
+    <p><strong>¿Qué es?</strong> La francofonía es el conjunto de países y comunidades que utilizan el idioma francés. No solo se refiere al idioma, sino también a una red de cooperación cultural, política y económica.</p>
+
+    <p><strong>¿Cuándo se originó?</strong> Aunque el término se usaba desde el siglo XIX, la Organización Internacional de la Francofonía (OIF) fue creada en <strong>1970</strong>.</p>
+
+    <p><strong>Países francófonos destacados:</strong></p>
+    <ul>
+      <li>Francia</li>
+      <li>Canadá (Quebec)</li>
+      <li>Bélgica</li>
+      <li>Suiza</li>
+      <li>Haití</li>
+      <li>Senegal</li>
+      <li>República Democrática del Congo</li>
+      <li>Marruecos</li>
+      <li>Túnez</li>
+      <li>Vietnam</li>
+    </ul>
+  </div>
 </section>
 
-<section id="francofonia">
-  <h3>Francofonía</h3>
-  <p><strong>¿Qué es?</strong> La francofonía es el conjunto de países y comunidades que utilizan el idioma francés. No solo se refiere al idioma, sino también a una red de cooperación cultural, política y económica.</p>
+<script>
+  function mostrarFrancofonia() {
+    const div = document.getElementById("contenido-francofonia");
+    div.style.display = div.style.display === "none" ? "block" : "none";
+  }
+</script>
 
-  <p><strong>¿Cuándo se originó?</strong> Aunque el término se usaba desde el siglo XIX, la Organización Internacional de la Francofonía (OIF) fue creada en <strong>1970</strong>.</p>
-
-  <p><strong>Países francófonos destacados:</strong></p>
-  <ul>
-    <li>Francia</li>
-    <li>Canadá (Quebec)</li>
-    <li>Bélgica</li>
-    <li>Suiza</li>
-    <li>Haití</li>
-    <li>Senegal</li>
-    <li>República Democrática del Congo</li>
-    <li>Marruecos</li>
-    <li>Túnez</li>
-    <li>Vietnam</li>
-  </ul>
-</section>
-
-      <ul>
-        <li>Pintar con música (los estudiantes dibujan lo que escuchan)</li>
-        <li>Crear esculturas con materiales reciclados</li>
       </ul>
     </section>
 
